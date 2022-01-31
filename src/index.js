@@ -1,3 +1,8 @@
+import Triangle from './triangle.js';
+import './css/styles.css';
+import $ from 'jquery';
+import 'bootstrap';
+
 $(document).ready(function() {
   $('#triangle-checker-form').submit(function(event) {
     event.preventDefault();
